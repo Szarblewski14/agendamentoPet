@@ -12,7 +12,7 @@
 
     --bg-primary: #151515;
     --bg-secondary: #1E1E1E;
-    --bg-tertiary: #23242C;
+    --bg-tertiary: #2E2C30;
     --bg-brand: #9282FA;
     --bg-highlights: #BDB4FA;
 
@@ -46,4 +46,10 @@ p {
 
 span{
     color: var(--content-tertiary);
+}
+
+.logo {
+    background-color: var(--bg-tertiary);
+    padding: 1rem;
+    border-bottom-right-radius: .6rem;
 }
