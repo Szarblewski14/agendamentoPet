@@ -26,6 +26,50 @@
 <body>  
     <div class="container">
         <img src="./src/assets/logo.svg" class="logo">
+
+        <form class="form">
+            <header>
+                <h1>Agende um atendimento</h1>
+                <p>Preencha os dados do cliente para realizar o agendamento:</p>
+            </header>
+
+            <label for="date" class="label">Data</label>
+            <div class="input">
+                <i><img src="./src/assets/calendario.svg" alt="Calendário" /></i>
+                <input type="date" id="date" name="date" required />
+            </div>
+            <span class="label">Horários</span>
+            
+            <ul id="hours" class="hours" aria-label="Horários disponíveis de manhã">
+                <!-- Exemplo: Manhã -->
+                <li data-period="morning" class="hour-period">Manhã</li>
+                <li data-period="morning" value="09:00" class="hour hour-available">
+                  09:00
+                </li> 
+              
+                <!-- Exemplo: Tarde -->
+                <li data-period="aftermoon" class="hour-period">Tarde</li>
+                <li data-period="afternoon" value="13:00" class="hour hour-unavailable">
+                  13:00
+                </li> 
+                
+                <!-- Exemplo: Noite -->
+                <li data-period="night" class="hour-period">Noite</li>
+        
+                <li data-period="night" value="19:00" class="hour hour-available">
+                  19:00
+                </li> 
+        
+              </ul>
+
+              <label for="cliente" class="label">Cliente</label>
+              <div class="input">
+                <i><img src="./src/assets/icons-pessoa.svg" alt="Calendário" /></i>
+                <input type="text" id="client" name="client" placeholder="Nome do cliente" required />
+              </div>
+              <button type="submit" class="button">AGENDAR</button>
+            
+        </form>
     </div>
 </body>
 
