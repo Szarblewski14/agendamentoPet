@@ -50,6 +50,6 @@ span{
 
 .logo {
     background-color: var(--bg-tertiary);
-    padding: 1rem;
+    padding: 1rem 2rem;
     border-bottom-right-radius: .6rem;
 }
