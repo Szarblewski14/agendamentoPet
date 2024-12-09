@@ -31,3 +31,19 @@
     font-family: "Inter Tight", sans-serif;
     font-family: "Roboto", serif;
 }
+
+body {
+    background-color: var(--bg-primary);
+}
+
+h1, h2, h3 strong {
+    color: var(--content-primary);
+}
+
+p {
+    color: var(--content-secondary);
+}
+
+span{
+    color: var(--content-tertiary);
+}
