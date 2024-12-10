@@ -55,7 +55,7 @@
             }
 
             .cancel-icon{
-                width: 10rem;
+                width: 1rem;
                 cursor: pointer;
             }
         }
@@ -68,5 +68,13 @@
 @media(max-width: 600px) {
     .container{
         flex-direction: column;
+    }
+    .schedule{
+        display: flex;
+        margin: auto;
+        padding: 1rem;
+    }
+    .schedule-period{
+        width: 26rem;
     }
 }
