@@ -56,6 +56,11 @@ span{
     color: var(--content-tertiary);
 }
 
+strong{
+    color: var(--content-primary);
+    font-size: 1.2rem;
+}
+
 .logo {
     z-index: 5;
     position: relative;
@@ -70,4 +75,14 @@ p{
 
 li{
     color: var(--content-secondary);
+}
+
+ul{
+    list-style: none;
+}
+
+.faixa{
+    padding: none;
+    height: 1px;
+    background-color: #66666634;
 }
