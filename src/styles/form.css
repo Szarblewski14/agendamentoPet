@@ -43,6 +43,10 @@
     }
 }
 
+.input:focus-within {
+  border: 1.5px solid #b8952e;
+}
+
 ::-webkit-calendar-picker-indicator {
   cursor: pointer;
   background: url("../assets/icons.svg") no-repeat;
@@ -123,6 +127,7 @@
 
     cursor: pointer;
   }
+
 
   @media(max-width:600px) {
     .form{
