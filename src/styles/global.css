@@ -82,7 +82,11 @@ ul{
 }
 
 .faixa{
-    padding: none;
     height: 1px;
     background-color: #66666634;
+}
+.faixa2{
+    height: 1px;
+    background-color: #66666634;
+    margin-bottom: 1rem;
 }
