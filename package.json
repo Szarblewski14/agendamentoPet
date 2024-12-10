@@ -1,0 +1,11 @@
+{
+  "name": "MundoPet",
+  "description": "Aplicação web para agendamentos de pet",
+  "author": "Leonardo Szarblewski",
+  "scripts": {
+    "server": "json-server --watch server.json --port 3330"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-alpha.21"
+  }
+}
