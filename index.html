@@ -73,7 +73,7 @@
         </form>
 
         <aside class="schedule">
-          <header>
+          <header class="header-aside">
             <h1>Sua agenda</h1>
             <p>Aqui você pode ver todos os clientes e serviços agendados para hoje.</p>
           </header>
@@ -99,8 +99,63 @@
                 </div>
                 
                 <img src="./src/assets/xis.svg" alt="Cancelar" class="cancel-icon" />
+              </li>
             </ul>
           </section>
+
+          <section class="schedule-period">
+
+            <header>
+              <div>
+                <img src="./src/assets/cloud-sun.svg" alt="tarde">
+                <strong>Tarde</strong>
+              </div>
+              <span>13h-18h</span>
+            </header>
+            <div class="faixa"></div>
+
+
+            <ul id="period-afternoon" class="period">
+              <!-- Exemplo -->
+              <li>
+                <div>
+                  <strong>13:00</strong>
+                  <span>Rodrigo Gonçalves</span>
+                </div>
+                
+                <img src="./src/assets/xis.svg" alt="Cancelar" class="cancel-icon" />
+              </li>
+            </ul>
+          </section>
+
+          <section class="schedule-period">
+
+            <header>
+              <div>
+                <img src="./src/assets/lua.svg" alt="noite">
+                <strong>Noite</strong>
+              </div>
+              <span>19h-21h</span>
+            </header>
+            <div class="faixa"></div>
+
+
+            <ul id="period-night" class="period">
+              <!-- Exemplo -->
+              <li>
+                <div>
+                  <strong>19:00</strong>
+                  <span>Rodrigo Gonçalves</span>
+                </div>
+                
+                <img src="./src/assets/xis.svg" alt="Cancelar" class="cancel-icon" />
+              </li>
+            </ul>
+          </section>
+
+          
+
+          
         </aside>
     </div>
 </body>
