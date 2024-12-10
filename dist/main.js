@@ -15,7 +15,7 @@
   \*********************/
 /***/ (() => {
 
-eval("    \n\n//# sourceURL=webpack://MundoPet/./src/main.js?");
+eval("    \n\n//# sourceURL=webpack:///./src/main.js?");
 
 /***/ })
 
