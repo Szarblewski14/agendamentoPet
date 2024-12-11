@@ -20,7 +20,18 @@ module.exports = {
         liveReload: true,
     },
 
-    plugins: [new HtmlWebpackPlugin({
+    plugins: [
+        new HtmlWebpackPlugin({
         template: path.resolve(__dirname, "index.html"),
-    })],
+    }),
+    ],
+
+    module:{
+        rules:[
+            {
+                test: /\.css$/,
+                use: ["style-loader", "css-loader"],
+            },
+        ],
+    },
 }
