@@ -44,19 +44,12 @@
 }
 
 .input:focus-within {
-  border: 1.5px solid #b8952e;
+  border: 1.5px solid var(--act-blue-light);
 }
 
 ::-webkit-calendar-picker-indicator {
   cursor: pointer;
   background: url("../assets/icons.svg") no-repeat;
-}
-
-.hour-period{
-    color: var(--content-primary);
-
-    list-style: none;
-    margin-top: 1rem;
 }
 
 .hours {
@@ -110,8 +103,8 @@
   }
 
   .hour:not(.hour-unavailable):hover {
-    border: 1px solid #b8952e;
-    color: #b8952e;
+    border: 1px solid var(--act-blue);
+    color: var(--act-blue);
   }
   .button{
     margin-top: 1rem;
