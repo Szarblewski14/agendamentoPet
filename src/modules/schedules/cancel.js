@@ -25,9 +25,7 @@ periods.forEach((period ) => {
                     //recarrega os agendamentos
                     schedulesDay()
                 }
-            }
-
-            
+            }   
         }
         
     })
