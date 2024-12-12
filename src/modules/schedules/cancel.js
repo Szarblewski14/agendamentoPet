@@ -3,7 +3,7 @@ import {scheduleCancel} from "../../services/schedule-cancel.js"
 import {schedulesDay} from "./load.js"
 
 //Gera evento click para cada lista (manhã, tarde e noite)
-periods.forEach((period) => {
+periods.forEach((period ) => {
     //captura o evento de clique na lista 
     period.addEventListener("click", async (event) => {
         if(event.target.classList.contains("cancel-icon")){

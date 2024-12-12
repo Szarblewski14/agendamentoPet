@@ -6,7 +6,7 @@ export async function scheduleNew({id, name, when}) {
         await fetch (`${apiConfig.baseURL}/schedules`, {
             method: 'POST',
             headers: {
-                "Content-type": "application/json"
+                "Content-Type": "application/json",
             },
             body: JSON.stringify({ id, name, when }),
         })
@@ -16,6 +16,5 @@ export async function scheduleNew({id, name, when}) {
     } catch (error) {
         console.log(error);
         alert("Não foi possiveel agendar tente novamente mais tarde")
-        
     }
 }
