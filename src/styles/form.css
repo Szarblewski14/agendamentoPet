@@ -31,9 +31,9 @@
     align-items: center;
     border: 1px solid var(--bd-primary);
     padding: .8rem;
-    gap: 4rem;
+    gap: 3rem;
     border-radius: .75rem;
-    justify-content: space-evenly;
+   
 
     input {
         background-color: transparent;
