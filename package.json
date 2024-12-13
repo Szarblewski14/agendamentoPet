@@ -3,8 +3,8 @@
   "author": "Leonardo Szarblewski",
   "scripts": {
     "server": "json-server --watch server.json --port 3333",
-    "build": "webpack",
-    "dev": "webpack server"
+    "dev": "webpack server",
+    "build": "webpack"
   },
   "dependencies": {
     "dayjs": "^1.11.10",
