@@ -33,7 +33,7 @@
     padding: .8rem;
     gap: 3rem;
     border-radius: .75rem;
-    max-width: 18rem;
+    max-width: 19rem;
    
 
     input {
@@ -50,7 +50,6 @@
 
 ::-webkit-calendar-picker-indicator {
   cursor: pointer;
-  
   background: url("../assets/icons.svg") no-repeat;
 }
 
@@ -100,8 +99,8 @@
   }
 
   .hour-selected {
-    border: 1px solid #b8952e;
-    color: #b8952e;
+    border: 1px solid var(--act-blue);
+    color: var(--act-blue);
   }
 
   .hour:not(.hour-unavailable):hover {
@@ -121,6 +120,7 @@
     font-weight: 600;
 
     cursor: pointer;
+    max-width: 19rem;
   }
 
 
