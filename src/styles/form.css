@@ -33,6 +33,7 @@
     padding: .8rem;
     gap: 3rem;
     border-radius: .75rem;
+    max-width: 18rem;
    
 
     input {
@@ -49,6 +50,7 @@
 
 ::-webkit-calendar-picker-indicator {
   cursor: pointer;
+  
   background: url("../assets/icons.svg") no-repeat;
 }
 
