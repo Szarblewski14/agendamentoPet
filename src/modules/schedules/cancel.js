@@ -23,8 +23,6 @@ periods.forEach((period) => {
                     schedulesDay()
                 }
             }
-            
-            
         }
         
     })
